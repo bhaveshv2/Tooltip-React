@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  height: 100vh;
+  background: #30475e;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction:column ;
+  align-items: center;
+}
+
+.dropdown {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+.dropdown label{
+  font-weight: 700;
+  color: white;
+}
+
+.dropdown select{
+  height: 50%;
+  width: 20%;
+}
+
+.button{
+  width: 30%;
+  height: 80px;
+  color: white;
+  background: #7e8a97;
+  text-align: center;
+  font-size:2.5rem;
+}
+
+.text{
+  margin-top:10px;
+}
+
+.tooltip{
+  width: 100%;
+  height: 80px;
+  border: 2px solid #e7dec8;
+  color: #e7dec8; 
+  position: relative;
+}
+
+.bottom{
+  top:50px;
+}
+
+.right{
+  left:400px;
+  bottom:65px;
+}
+
+.left{
+  right: 400px;
+  bottom:65px;
+}
+
+.top{
+  bottom:180px;
+}
+
+@media only screen and (max-width:600px){
+  .button{
+    font-size:2rem;
+  }
+}
